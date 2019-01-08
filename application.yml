@@ -1,0 +1,23 @@
+spring:
+  profiles:
+    active: dev
+---
+spring:
+  profiles: dev
+  application:
+    name: bazinga-dev
+---
+spring:
+  profiles: tset
+  application:
+    name: bazinga-test
+---
+spring:
+  profiles: pre
+  application:
+    name: bazinga-pre
+---
+spring:
+  profiles: master
+  application:
+    name: bazinga-master
